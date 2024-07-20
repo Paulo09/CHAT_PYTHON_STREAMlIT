@@ -18,7 +18,7 @@ load_dotenv()
 def get_response(user_query, chat_history, modelo = 'llama'):
 
     template = """
-    Você é um assistente pessoal sobre a prefeitura de fortaleza, ceará. Responda as 
+    Você é um assistente pessoal. Responda as 
     questões que seguem baseado na história da conversa:
 
     história da conversa: {chat_history}
@@ -50,7 +50,7 @@ def get_response(user_query, chat_history, modelo = 'llama'):
 
 # app config
 st.set_page_config(page_title="TESTE DE CHATBOT NO STREAMLIT", page_icon="🤖", layout="wide")
-st.title("FORTALEZA-CE - Chatbot Da Peste")
+st.title("Paulo Castro - Chatbot")
 
 # Aplicar estilo CSS
 st.markdown(
@@ -81,7 +81,7 @@ st.markdown(
     <div class="header">
         <div class="icon">🚀</div>
         <h1>
-        EMBRAPII - Bureau Tecnologia
+        EXEMPLO CHATBOT - PYTHON_STREAMLIT
         </h1>
         <div class="icon">🚀</div>
     </div>
